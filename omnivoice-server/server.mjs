@@ -6,7 +6,7 @@ import { MsEdgeTTS, OUTPUT_FORMAT } from "msedge-tts";
 // Backed by Microsoft Edge's free neural TTS (no API key, no model download).
 
 const PORT = process.env.PORT ?? 8123;
-const VOICE = process.env.TTS_VOICE ?? "vi-VN-HoaiMyNeural"; // vi-VN-NamMinhNeural for male voice
+const VOICE = process.env.TTS_VOICE ?? "en-US-AndrewNeural"; // English narration voice used across all episodes
 
 function readBody(req) {
   return new Promise((resolve, reject) => {
