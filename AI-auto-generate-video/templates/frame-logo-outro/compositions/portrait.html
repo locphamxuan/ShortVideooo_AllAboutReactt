@@ -47,33 +47,6 @@
                 color: #7c5cff;
             }
 
-            .brand-bar {
-                position: absolute;
-                left: 0;
-                right: 0;
-                top: 160px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                gap: 22px;
-                z-index: 5;
-                animation: fadeUp 0.7s ease-out 0.3s both;
-            }
-            .brand-bar .logo-img {
-                width: 96px;
-                height: 96px;
-                object-fit: contain;
-            }
-            .brand-bar .brand-label {
-                font-size: 38px;
-                font-weight: 700;
-                letter-spacing: 1px;
-                background: linear-gradient(90deg, #0cc0df 0%, #ffde59 100%);
-                -webkit-background-clip: text;
-                background-clip: text;
-                color: transparent;
-            }
-
             @keyframes pieceIn {
                 0% {
                     opacity: 0;
@@ -229,11 +202,6 @@
             data-height="1920"
             data-composition-variables='{"brand_name":"AI Coding","tagline":"Bản tin mới mỗi ngày","primary_url":"https://aicodingvn.vercel.app/"}'
         >
-            <div class="brand-bar">
-                <img class="logo-img" src="../assets/logo.svg" />
-                <span class="brand-label">Senior AI Engineer</span>
-            </div>
-
             <div class="logo-wrap">
                 <svg viewBox="0 0 140 140" fill="none">
                     <!-- "</>" code glyph, assembled from 3 pieces -->
@@ -267,8 +235,8 @@
             <p class="tagline"></p>
             <div class="meta"><span class="meta-url"></span></div>
 
-            <div class="corner left">Theo dõi</div>
-            <div class="corner right">Hết</div>
+            <div class="corner left">Follow</div>
+            <div class="corner right">The End</div>
         </div>
 
         <script>
